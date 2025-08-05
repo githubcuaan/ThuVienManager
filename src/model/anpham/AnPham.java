@@ -52,6 +52,14 @@ public abstract class AnPham implements Serializable {
     public void setNhaXuatBan(String nhaXuatBan) {
         this.nhaXuatBan = nhaXuatBan;
     }
+    
+    public double getGiaTien() {
+        return giaTien;
+    }
+    
+    public void setGiaTien(double giaTien) {
+        this.giaTien = giaTien;
+    }
 
     // abstract method
     public abstract boolean tinhTrang();
